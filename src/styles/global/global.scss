@@ -9,7 +9,7 @@ body {
   height: 100%;
   color: $colorText;
   background-color: $colorBackground;
-  font: inherit;
+  font-size: 62.5%;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -18,6 +18,8 @@ img {
 }
 
 // Typography
+
+
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   display: block;

@@ -15,7 +15,15 @@
 
 /* Settings ==================================================================*/
 /* Variables =================================================================*/
+@font-face {
+  font-family: "Gotham-Bold";
+  src: url({{ 'Gotham-Bold.WOFF' }});
+}
 
+@font-face {
+  font-family: "Gotham-Book";
+  src: url({{ 'Gotham-Book.WOFF' }});
+}
 // Colors
 $colorBrand: {{ settings.color_brand }};
 $colorText: {{ settings.color_text }};
@@ -42,20 +50,20 @@ $lineHeight: 1.5;
 $lineMargin: $spacing*2;
 
 // Font bases
-$h1: 2.5rem;
-$h2: 2rem;
+$h1: 2.4rem;
+$h2: 3.6rem;
 $h3: 1.75rem;
 $h4: 1.25rem;
-$h5: 1rem;
-$h6: 0.75rem;
-$p: 1rem;
-$small: 0.625rem;
+$h5: 1.6rem;
+$h6: 1.8rem;
+$p: 1.4rem;
+$small: 1.2rem;
 
 // Screen Sizes
 $s: 600px;
 $m: 850px;
-$l: 1150px;
-$xl: 1450px;
+$l: 1200px;
+$xl: 1366px;
 
 // Transitions
 $transitionProperty: all;
@@ -293,7 +301,7 @@ body {
   height: 100%;
   color: $colorText;
   background-color: $colorBackground;
-  font: inherit;
+  font-size: 62.5%;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -302,6 +310,8 @@ img {
 }
 
 // Typography
+
+
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   display: block;
